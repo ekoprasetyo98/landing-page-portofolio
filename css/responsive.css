@@ -4,6 +4,10 @@
     .jumbotron .ufo{
         display: none;
     }
+    
+    .alert{
+        margin-top: 10vh;
+    }
 
     .about-desc{
         width: 100%;
