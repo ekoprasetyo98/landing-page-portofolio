@@ -1,9 +1,9 @@
 /*resposive view*/
 /*xtra small*/
 @media (max-width: 575.98px){
-    .jumbotron .ufo{
+/*     .jumbotron .ufo{
         display: none;
-    }
+    } */
     
     .alert{
         margin-top: 10vh;
@@ -29,6 +29,33 @@
 
     #sosmed{
         border-top: 1px solid #cccdcf;
+    }
+    
+    @keyframes ufo{
+        0% {
+            -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+        }
+        20% {
+            -webkit-transform: translate(83px, -1px) rotate(36deg);
+            transform: translate(83px, -1px) rotate(36deg);
+        }
+        40% {
+            -webkit-transform: translate(161px, 72px) rotate(72deg);
+            transform: translate(161px, 72px) rotate(72deg);
+        }
+        60% {
+            -webkit-transform: translate(150px, 144px) rotate(108deg);
+            transform: translate(150px, 144px) rotate(108deg);
+        }
+        80% {
+            -webkit-transform: translate(10px, 73px) rotate(144deg);
+            transform: translate(10px, 73px) rotate(144deg);
+        }
+        100% {
+            -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+        }
     }
    
   
