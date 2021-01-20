@@ -1,0 +1,64 @@
+/*resposive view*/
+/*xtra small*/
+@media (max-width: 575.98px){
+    .jumbotron .ufo{
+        display: none;
+    }
+
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .main-list .card{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contact-img{
+        display: none;
+    }
+
+    .contact-list{
+        order: 1;
+    }
+
+    #sosmed{
+        border-top: 1px solid #cccdcf;
+    }
+   
+  
+}
+
+/*small/ smartphone*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .jumbotron .ufo{
+        display: none;
+    }
+
+    .about-desc{
+        width: 100%;
+    }
+
+    .contact-img{
+        display: none;
+    }
+
+    .main-list .card{
+        margin: 0 auto;
+        display: block;
+        width: 16em;
+    }
+
+    
+}
+
+/*medium/ tablet*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*large/ pc*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      
+}
