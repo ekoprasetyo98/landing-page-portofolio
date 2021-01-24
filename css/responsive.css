@@ -1,16 +1,30 @@
 /*resposive view*/
 /*xtra small*/
 @media (max-width: 575.98px){
-/*     .jumbotron .ufo{
+    /* .jumbotron .ufo{
         display: none;
     } */
-    
-    .alert{
-        margin-top: 10vh;
+
+    .banner-img img{
+        display: none;
+    }
+
+
+
+    #about{
+        background-image: url(../img/avatar.png);
+        background-size: 130vh;
+        background-position: 7vh;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+    }
+
+    .about-title .title{
+        text-align: left;
     }
 
     .about-desc{
-        width: 100%;
+        width: 60%;
         margin-top: 30px;
     }
 
@@ -30,7 +44,7 @@
     #sosmed{
         border-top: 1px solid #cccdcf;
     }
-    
+
     @keyframes ufo{
         0% {
             -webkit-transform: translate(1px, 1px) rotate(0deg);
@@ -67,8 +81,25 @@
         display: none;
     }
 
+    .banner-img img{
+        display: none;
+    }
+
+    #about{
+        background-image: url(../img/avatar.png);
+        background-size: 130vh;
+        background-position: 7vh;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+    }
+
+    .about-title .title{
+        text-align: left;
+    }
+
     .about-desc{
-        width: 100%;
+        width: 60%;
+        margin-top: 30px;
     }
 
     .contact-img{
@@ -85,11 +116,41 @@
 }
 
 /*medium/ tablet*/
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 568px) and (max-width: 991.98px) {
+    #about{
+        background-image: url(../img/avatar.png);
+        background-size: 130vh;
+        background-position: 17vh;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+    }
 
+    .about-title .title{
+        text-align: left;
+    }
+
+    .about-desc{
+        width: 50%;
+        margin-top: 30px;
+    }
 }
 
 /*large/ pc*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-      
+    #about{
+        background-image: url(../img/avatar.png);
+        background-size: 130vh;
+        background-position: 97vh;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+    }
+
+    .about-title .title{
+        text-align: left;
+    }
+
+    .about-desc{
+        width: 60%;
+        margin-top: 30px;
+    }     
 }
