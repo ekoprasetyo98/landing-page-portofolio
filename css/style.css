@@ -4,6 +4,8 @@
     /* box-sizing: border-box; */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
 html{
     scroll-behavior: smooth;
     
@@ -11,6 +13,12 @@ html{
 
 .title{
     color: #8c8c918a;
+}
+
+.introduce{
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    font-size: 72px;
 }
 
 .btn-primary,.btn-success{
@@ -26,6 +34,12 @@ html{
     color: #fff;
     border: none;
 }
+
+.alert button{
+    display: block;
+}
+
+
 
 /* color palet 
 jumbotron : #696fdd
@@ -65,8 +79,23 @@ nav{
     border-radius: 0 0 30px 0;
 }
 
-.banner{
+.banner-txt{
     margin-top: 80px;
+}
+
+.banner-img{
+    margin-top: 10px;
+}
+
+/* .banner-img{
+    position: absolute;
+    top: -50%;
+    
+} */
+
+.banner-img img{
+    display: none;
+    border-radius: 50%;
 }
 
 .banner .btn{
@@ -77,12 +106,20 @@ nav{
 }
 
 .banner .btn:hover{
-    background-color: #007bff;
+    background-color: #405f80;
     color: #fff;
 }
 
 #about{
-    margin: 80px 0;
+    background-image: url(../img/avatar.png);
+    background-size: 100vh;
+    background-position: -47vh;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.about-title{
+    text-align: center;
 }
 
 .about-desc{
@@ -96,7 +133,8 @@ nav{
 }
 
 #service{
-    margin: 80px 0;
+    padding: 80px 0;
+    background-color: #fbfbfb;
 }
 
 .service-list{
@@ -125,7 +163,7 @@ nav{
 }
 
 .service-item .one::before{
-    background-color: #888df5;
+    background-color: #35c1f8;
     left: 0;
     top: 0;
     right: 0;
@@ -137,7 +175,7 @@ nav{
 }
 
 .service-item .two::before{
-    background-color: rgba(254,172,36,0.9);
+    background-color:#fdca3b;
     left: 0;
     top: 0;
     right: 0;
@@ -182,14 +220,16 @@ nav{
 }
 
 #landing-project{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 96px 0;
-    background-color: #2b546a;
+    padding: 60px 0;
+    background-color: #fbfbfb;
     text-align: center;
-    color: #fff;
+    /* color: #fff; */
+    
 }
 
 .main-list .card{
@@ -199,8 +239,16 @@ nav{
     text-align: center;
     font-weight: bold;
     height: 100%;
-    transition: .3s;
     width: 18em;
+    margin: 0 auto;
+    border: none;
+}
+
+#landing-project .main-list .card:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 4px 15px 0px rgba(21, 10, 82, 0.35);
 }
 
 .main-list .card-1{
@@ -215,7 +263,10 @@ nav{
 
 #contact{
     margin: 80px 0;
+    position: relative;
+    
 }
+
 
 .contact-list{
     text-align: center;
@@ -251,6 +302,7 @@ nav{
     justify-content: center;
     padding: 48px 0;
     text-align: center;
+    background-color: #2b546a;
 }
 
 #sosmed .fa{
@@ -265,10 +317,13 @@ nav{
 }
 
 
+
+
 footer {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #8491a5 ;
+    background-color: #2b546a;
 }
 footer p {
     font-size: 12px;
