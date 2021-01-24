@@ -1,5 +1,14 @@
 /*resposive view*/
 /*xtra small*/
+@media (max-width:550px){
+    #about{
+        background-image: url(../img/avatar.png);
+        background-size: 130vh;
+        background-position: 3vh;
+        background-repeat: no-repeat;
+        padding: 80px 0;
+    }
+}
 @media (max-width: 575.98px){
     /* .jumbotron .ufo{
         display: none;
