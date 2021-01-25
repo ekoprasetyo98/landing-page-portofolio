@@ -16,7 +16,7 @@ html{
 }
 
 .introduce{
-    font-family: 'Coming Soon', sans-serif;
+    font-family: 'Coming Soon', cursive;
     font-weight: bold;
     font-size: 72px;
 }
@@ -42,7 +42,9 @@ html{
 
 
 /* color palet 
-jumbotron : #696fdd
+#696fdd,
+#fbfbfb,
+#fff,
 #888df5
 
 */
@@ -53,17 +55,18 @@ jumbotron : #696fdd
 }
 nav{
     /* background:linear-gradient(90deg, #888df5,  #696fdd); */
-    background-color: #88e7ce;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     
 }
 
-.navbar-collapse{
-    background-color: #88e7ce;
-}
+/* .navbar-collapse{
+    background-color: #88;
+} */
 
 .nav-item  {
     margin: 0 10px;
+    color: #333;
 }
 .nav-item:hover{
     transition: 2.5s;
@@ -71,12 +74,32 @@ nav{
     
 }
 
-.jumbotron{
+.navbar-nav{
+    margin: 0 auto;
+    
+}
+
+.jumbotrons{
     height: 630px;
     /* background:linear-gradient(90deg, #888df5,  #696fdd); */
-    background-color: #88e7ce;
-    color: #fff;
-    border-radius: 0 0 30px 0;
+    /* background-color: #88e7ce; */
+    /* background-color: #fbfbfb; */
+    background-image: url(../img/eko-bg.png);
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    background-position: 155vh;
+    color: #333;
+    background-color: #fbfbfb;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.img-ban{
+    display: none;
+}
+
+.banner{
+    text-align: center;
 }
 
 .banner-txt{
@@ -87,22 +110,16 @@ nav{
     margin-top: 10px;
 }
 
-/* .banner-img{
-    position: absolute;
-    top: -50%;
-    
-} */
-
 .banner-img img{
     display: none;
     border-radius: 50%;
 }
 
-.banner .btn{
+.btn{
     border-radius: 25px;
     padding: 10px 20px;
-    background-color: #f9fbfe;
-    color: #88e7ce;
+    background-color: #88e7ce;
+    color: #fff;
 }
 
 .banner .btn:hover{
@@ -111,10 +128,10 @@ nav{
 }
 
 #about{
-    background-image: url(../img/avatar.png);
-    background-size: 100vh;
-    background-position: -47vh;
-    background-repeat: no-repeat;
+    /* background-image: url(../img/Saly-19.png);
+    background-size: 50vh;
+    background-position: 32vh;
+    background-repeat: no-repeat; */
     padding: 80px 0;
 }
 
@@ -123,7 +140,7 @@ nav{
 }
 
 .about-desc{
-    width: 45%;
+    width: 50%;
     text-align: justify;
 }
 
@@ -134,7 +151,7 @@ nav{
 
 #service{
     padding: 80px 0;
-    background-color: #fbfbfb;
+    /* background-color: #fbfbfb; */
 }
 
 .service-list{
@@ -226,7 +243,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 60px 0;
-    background-color: #fbfbfb;
+    background-color: #ffff;
     text-align: center;
     /* color: #fff; */
     
@@ -269,7 +286,8 @@ nav{
 
 
 .contact-list{
-    text-align: center;
+    text-align: left;
+    padding: 20vh 0;
 }
 
 .contact-list img{
