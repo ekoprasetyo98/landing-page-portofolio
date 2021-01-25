@@ -1,41 +1,31 @@
 /*resposive view*/
 /*xtra small*/
-@media (max-width:450px){
-    #about{
-        background-image: url(../img/avatar.png);
-        background-size: 130vh;
-        background-position: 3vh;
-        background-repeat: no-repeat;
-        padding: 80px 0;
-    }
-}
 @media (max-width: 575.98px){
     /* .jumbotron .ufo{
         display: none;
     } */
 
-    .banner-img img{
-        display: none;
-    }
-
-
-
+   .banner img{
+       width: 110px;
+       height: 110px;
+       object-fit: cover;
+       border-radius: 50%;
+       box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.5);
+       margin-bottom: 30px;
+   }
     #about{
-        background-image: url(../img/avatar.png);
-        background-size: 130vh;
-        background-position: 7vh;
-        background-repeat: no-repeat;
         padding: 80px 0;
     }
 
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 40px;
+    }
     .about-title .title{
         text-align: left;
     }
 
-    .about-desc{
-        width: 60%;
-        margin-top: 30px;
-    }
 
     .main-list .card{
         margin: 0 auto;
@@ -47,7 +37,8 @@
     }
 
     .contact-list{
-        order: 1;
+        padding-top: 30px;
+        text-align: center;
     }
 
     #sosmed{
@@ -86,7 +77,31 @@
 
 /*small/ smartphone*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .jumbotron .ufo{
+    .jumbotrons{
+    height: 630px;
+    /* background:linear-gradient(90deg, #888df5,  #696fdd); */
+    /* background-color: #88e7ce; */
+    /* background-color: #fbfbfb; */
+    background-image: url(../img/eko-bg.png);
+    background-repeat: no-repeat;
+    background-size: 90vh;
+    background-position: 155vh;
+    color: #333;
+    background-color: #fbfbfb;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+
+.banner img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+    .jumbotrons .ufo{
         display: none;
     }
 
@@ -95,20 +110,17 @@
     }
 
     #about{
-        background-image: url(../img/avatar.png);
-        background-size: 130vh;
-        background-position: 7vh;
-        background-repeat: no-repeat;
         padding: 80px 0;
+    }
+
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 40px;
     }
 
     .about-title .title{
         text-align: left;
-    }
-
-    .about-desc{
-        width: 60%;
-        margin-top: 30px;
     }
 
     .contact-img{
@@ -126,40 +138,57 @@
 
 /*medium/ tablet*/
 @media (min-width: 568px) and (max-width: 991.98px) {
+    .ufo{
+        display: none;
+    }
+
+    
+   .banner img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
     #about{
-        background-image: url(../img/avatar.png);
-        background-size: 130vh;
-        background-position: 17vh;
-        background-repeat: no-repeat;
         padding: 80px 0;
+    }
+
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 40px;
     }
 
     .about-title .title{
         text-align: left;
-    }
-
-    .about-desc{
-        width: 50%;
-        margin-top: 30px;
     }
 }
 
 /*large/ pc*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    
+   .banner img{
+    display: none;
+}
     #about{
-        background-image: url(../img/avatar.png);
-        background-size: 130vh;
-        background-position: 97vh;
-        background-repeat: no-repeat;
         padding: 80px 0;
     }
 
+    .about-desc{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 40px;
+    }
     .about-title .title{
         text-align: left;
     }
+ 
+}
 
-    .about-desc{
-        width: 60%;
-        margin-top: 30px;
-    }     
+@media(min-width: 1441.98px){
+    .banner img{
+        display: none;
+    }
 }
