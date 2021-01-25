@@ -1,7 +1,7 @@
 .square{
     width: 10px;
     height: 10px;
-    border: 1px solid white;
+    border: 1px solid #405f80;
     -webkit-animation-name: square;
     -webkit-animation-duration: 10s;
     -webkit-animation-delay: 0s;
