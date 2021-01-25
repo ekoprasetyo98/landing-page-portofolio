@@ -16,7 +16,7 @@ html{
 }
 
 .introduce{
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Coming Soon',sans-serif, cursive;
     font-weight: bold;
     font-size: 72px;
 }
