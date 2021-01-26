@@ -10,6 +10,13 @@ html{
     scroll-behavior: smooth;
     
 }
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background:  rgb(48, 200, 214);
+}
 
 .title{
     color: #8c8c918a;
