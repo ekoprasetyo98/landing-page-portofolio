@@ -253,33 +253,21 @@ nav{
     
 }
 
-.main-list .card{
+
+
+.main-list .img-fluid{
+    position: relative;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    padding: 40px 24px;
-    /* max-width: 312px; */
-    text-align: center;
-    font-weight: bold;
-    height: 100%;
-    width: 18em;
     margin: 0 auto;
-    border: none;
+    display: block;
 }
 
-#landing-project .main-list .card:hover{
-    transform: scale(1.01);
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow: 2px 4px 15px 0px rgba(21, 10, 82, 0.35);
+.cover a{
+    color: #405f80;
 }
-
-.main-list .card-1{
-    background-color: #888df5;
-}
-.main-list .card-2{
-    background-color: #ff577b;
-}
-.main-list .card-3{
-    background-color: #f0d552;
+.cover a:hover{
+    color: rgb(231, 231, 110);
 }
 
 #contact{
