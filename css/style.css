@@ -25,6 +25,10 @@ html{
     background-color: rgb(48, 200, 214);
     border: none;
 }
+.repair{
+    color:  #8d8d9b8a;
+    font-size: 50px;
+}
 
 .alert{
     position: absolute;
