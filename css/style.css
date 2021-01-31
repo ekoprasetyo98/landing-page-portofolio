@@ -69,6 +69,7 @@ nav{
     /* background:linear-gradient(90deg, #888df5,  #696fdd); */
     background-color: #fff;
     color: #333;
+     box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.3);
     
 }
 
