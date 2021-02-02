@@ -4,6 +4,13 @@
     /* .jumbotron .ufo{
         display: none;
     } */
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:active{
+        border: none;
+    }
     .img-ban img{
         width: 150px;
         height: 150px;
@@ -101,6 +108,14 @@
     .jumbotrons .ufo{
         display: none;
     }
+    
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:active{
+        border: none;
+    }
 
     #about{
         padding: 80px 0;
@@ -148,6 +163,14 @@
     }
     .img-ban{
         display: inline-block;
+    }
+    
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:active{
+        border: none;
     }
 
     .banner-txt{
