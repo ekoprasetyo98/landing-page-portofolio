@@ -11,6 +11,9 @@
 
 html{
     scroll-behavior: smooth;
+/*     font-family: 'Coming Soon', cursive; */
+}
+body{
     font-family: 'Coming Soon', cursive;
 }
 ::-webkit-scrollbar {
